@@ -1,0 +1,201 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+.clearfix::after{
+    content:"";
+    display: block;
+    clear: both;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 16px;
+}
+
+
+      /*Banner,Navigation*/
+
+.master{
+    width: 100%;
+    height:100vh ;
+    background-image: url("../Image/background-pic-02.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat:no-repeat ;
+    background-size: cover;
+    padding-bottom: 100px;
+
+}
+
+.navigation{
+    width: 100%;
+    background-color: rgb(31, 30, 30);
+}
+
+.nav-center{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nav-center h1{
+    float: left;
+    padding-left: 10px;
+    padding-top: 5px;
+    color: #fff;
+}
+
+.orange{
+    color: #f23434;
+}
+
+.nav-center ul{
+    float: right;
+}
+
+.navigation ul li{
+    float: left;
+    list-style: none;
+    font-weight: 500;
+    padding: 15px 40px 0px 0px;
+    padding-top: 12px;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.icon{
+    float: right;
+    margin: 20px 10px 0px 0px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    display: none;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.fa{
+    font-size: 30px;
+    color: #fff; 
+}
+
+.banner{
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 15%;
+    color: #fff;
+}
+
+.banner h3{
+    color: #f23434;
+    font-size: 1.4rem;
+}
+
+.banner h1{
+    font-size: 3.5rem;
+    letter-spacing: 5px;
+    font-weight: 700;
+    margin-top: 0;
+    color: black;
+}
+
+.product{
+    max-width: 1200px;
+    padding: 100px 15px;
+    margin: 0 auto;
+}
+
+.product h1{
+    float: left;
+    font-weight: 500;
+    font-size: 2rem;
+    color: rgb(56, 56,56);
+}
+
+.product h4{
+    float:right ;
+    font-weight: 700;
+    color: #f23434;
+}
+
+.product hr{
+    clear: both;
+    height: 1px;
+    background-color: rgb(219, 214, 214);
+    border: none;
+}
+
+.product-list1{
+    width: 100%;
+    padding-top: 30px;
+}
+
+.product-box{
+    width: 26%;
+    float: left;
+    margin: 0 2%;
+    padding-bottom: 15px;
+    border: 1px solid rgb(219 , 214, 214);
+}
+
+.product-box h2{
+    float: left;
+    padding-left: 5%;
+    font-weight: 500;
+    color: #5c92b1;
+    font-size: 1.3rem;
+}
+
+.product-pic{
+    margin-bottom: 10px;
+    width: 100%;
+
+}
+
+.product-box h3{
+    float: right;
+    padding-right: 5%;
+    color: rgb(71, 70, 70);
+}
+
+.product-box p{
+    clear: both;
+    padding: 0 10%;
+    color: rgb(122, 120, 120);
+    font-size: 1rem;
+    line-height: 25px;
+}
+
+.five-star{
+    float: left;
+    font-size: 15px;
+    padding: 10px 2px;
+    color: #f23434;
+}
+
+.review{
+    float: right;
+    padding-right: 5px;
+    margin-top: 10px;
+    color: #f23434; 
+}
+
+
+
+
+
+
+
+
+
