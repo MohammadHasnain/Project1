@@ -38,6 +38,7 @@ html{
     width: 100%;
     background-color: rgb(31, 30, 30);
     position: fixed;
+
 }
 
 .nav-center{
@@ -56,6 +57,11 @@ html{
     color: #f23434;
 }
 
+.green{
+    color: rgb(3, 153, 53);
+   
+}
+
 .nav-center ul{
     float: right;
 }
@@ -72,7 +78,7 @@ html{
 
 .icon{
     float: right;
-    margin: 20px 10px 0px 0px;
+    margin: 30px 10px 0px 0px;
     background-color: transparent;
     border: none;
     outline: none;
@@ -157,7 +163,7 @@ a{
     font-size: 1.3rem;
 }
 
-.product-pic{
+.pro-pic{
     margin-bottom: 10px;
     width: 100%;
 
@@ -358,8 +364,65 @@ a{
         top: 50px;
         padding-left: 20px;
     }
-
     .icon{
         display: block;
     }
+    a{
+        color: #fff;
+    }
+    .banner h1{
+        font-size: 2.2rem;
+    }
+    .banner{
+        padding-top: 20%;
+    }
+    .product{
+        padding: 50px 15px;
+    }
+    .product h1{
+        text-align: center;
+        float: none;
+    }
+    .product h4{
+        text-align: center;
+        float: none;
+    }
+    .product-box{
+        width: 100%;
+        margin: 25px 0;
+    }        
+    .product-box p{
+        text-align: center;
+    }
+    .about h1{
+        text-align: center;
+    }
+    .about .left-box{
+        width: 100%;
+        padding: 0 10px;
+        margin-bottom: 50px;
+    }
+    .about .right-box{
+        width: 100%;
+        padding: 0 10px;
+    }
+     .left{
+        width: 100%;
+        text-align: center;
+        padding: 10px 10px;
+     }
+     .right{
+        width: 100%;
+        text-align: center;
+        padding: 10px 10px;
+     }
+     .right{
+        padding: 20px 10px;
+     }
+}
+
+@media only screen and (max-width:375px){
+  .navigation ul li{
+    padding-right: 27px;
+  }
 }
