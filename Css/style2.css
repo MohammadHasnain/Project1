@@ -1,3 +1,5 @@
+
+
 body{
     margin: 0;
     padding: 0;
@@ -122,6 +124,8 @@ a{
     color: black;
 }
 
+/*Product*/
+
 .product{
     max-width: 1300px;
     padding: 100px 15px;
@@ -208,144 +212,6 @@ a{
   margin-left: 5%;
 }
 
-                                  /* ABOUT */
-
-.about{
-    max-width: 1300px;
-    margin: 0 auto;
-    padding: 0 15px;
-}
-
-.about h1{
-    font-weight: 100;
-    color: rgb(56 , 56, 56);
-}
-
-.about hr{
-    height: 1px;
-    border: none;
-    background-color: rgb(214, 214, 218);
-}
-
-.about .left-box{
-    float: left;
-    width: 50%;
-    padding-right:20px ;
-}
-
-.left-box h2{
-    color: #5c92b1;
-    font-weight: 100;
-    margin-top: 0;
-}
-
-.left-box p{
-    line-height: 25px;
-    color: rgb(122, 120, 120);
-    padding: 10 px 0 0 0;
-}
-
-.left-box a{
-    color: cornflowerblue;
-}
-
-.btn{
-    width: 120px;
-    height: 40px;
-    border: none;
-    color: #fff;
-    background-color: #f23434;
-    border-radius: 5px;
-    font-size: 1rem;
-}
- 
-.left-box .feature{
-    padding: 20px 0 0 0;
-}
-
-.left-box .feature li{
-    padding: 10px;
-    list-style: square;
-    margin-left: 30px;
-    color: rgb(56 , 56, 56);
-}
-
-.about .right-box{
-    width: 50%;
-    float: right;
-}
-
-.right-box .about-pic{
-    width: 100%;
-}
-
-/*Purchase*/
-
-.purchase{
-    margin: 0 auto;
-    max-width: 1300px;
-    padding: 50px 15px;
-}
-
-.center{
-    width: 100%;
-    background-color: rgb(241, 243, 243);
-    margin: 50px 0px;
-}
-
-.left{
-    width: 70%;
-    float: left;
-    padding: 20px 0 20px 20px;
-}
-
-.left h2{
-    color: #5c92b1;
-}
-
-.bold{
-    font-weight: 600;
-}
-
-.left p{
-    color: rgb(122, 120, 120);
-}
-
-.right{
-    width: 30%;
-    float: right;
-    text-align: right;
-    padding: 50px 20px 50px 0;
-}
-
-.purchase button{
-    width: 140px;
-    height: 40px;
-    border: none;
-    color: rgb(238, 237, 237);
-    background-color: #f23434;
-    border-radius: 5px;
-    font-size: 1rem;
-}
-
-.purchase hr{
-    height: 1px;
-    border: none;
-    background-color: rgb(214, 214, 218);
-}
-
-/*footer*/
-
-.footer{
-    max-width: 1300px;
-    margin: 0 auto;
-    text-align: center;
-    padding: 0 15px 50px 15px;
-}
-
-.footer p{
-    font-size: 0.9rem;
-}
 
 /*media queries*/
 

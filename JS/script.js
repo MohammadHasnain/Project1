@@ -1,6 +1,6 @@
 
 
-$(".icon").click(function () {
+$(".icon").click(function(){
       $("ul").slideToggle();
 })
 

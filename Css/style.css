@@ -428,4 +428,11 @@ a{
   .navigation ul li{
     padding-right: 27px;
   }
+
+  .about .right-box{
+    width: 100%;
+    padding: 0 2px;
+    float: none;
+
+}
 }
