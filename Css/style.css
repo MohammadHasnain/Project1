@@ -24,12 +24,11 @@ html{
 
         /*Login,Signup*/
 
-        /*
+        
 
         *{
             box-sizing: border-box;
             font-family: 'Poppins', sans-serif;
-            margin: 0;
             padding: 0;
         }
         
@@ -52,6 +51,7 @@ html{
             padding: 50px 60px 70px;
             text-align: center;
             transform: translate(-50%, -50%);
+            transform: scale(0);
         }
         .form-box h1{
             font-size: 30px;
@@ -133,7 +133,7 @@ html{
             color: #555;
         }
         
-        */
+        
         
 
       /*Banner,Navigation*/
