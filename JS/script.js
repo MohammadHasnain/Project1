@@ -3,15 +3,12 @@
 $(".icon").click(function(){
       $("ul").slideToggle();
 })
-
-$(".lb").click(function(){
-      $("form-box").slideToggle();
+    
+document.querySelector("#user").addEventListener("click",function(){
+      document.querySelector(".form-box").classList.add("active");
 })
 
+document.querySelector("#close-btn").addEventListener("click",function(){
+      document.querySelector(".form-box").classList.remove("active");
+})
 
-
-
-const lb  = document.querySelector('.lb')
-lb.addEventListener('click', function(){
-      form-box.classlist.add('active-popup');
-});
