@@ -51,7 +51,8 @@ html{
             padding: 50px 60px 70px;
             text-align: center;
             transform: translate(-50%, -50%);
-            transform: scale(0);
+            
+            transition: transform .5s ease;
         }
         .form-box h1{
             font-size: 30px;
@@ -147,6 +148,9 @@ html{
 
         }
         
+        .form-box .active-popup{
+            transform: scale(1);
+        }
 
       /*Banner,Navigation*/
 
