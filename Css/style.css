@@ -651,7 +651,7 @@ a{
     margin-bottom: 40px;}
 
 .form-box{
-    height: 45vh;
+    height: 50vh;
     padding: 50px 15px 70px;
 }
 
@@ -682,7 +682,7 @@ a{
 }
 
 .form-box{
-    height: 40vh;
+    height: 60vh;
 }
 
 .btn-field button{
@@ -692,4 +692,37 @@ a{
 .input-group {
     height: 220px;
 }
+
+.product-box{
+    width: 47%;
+    margin: 5px;
+}
+.product-box h2{
+    font-size: 1rem;
+}
+.product-box h3{
+    font-size: 0.9rem;
+}
+.product-box p{
+    font-size: 0.8rem;
+}
+}
+
+@media only screen and (max-width:375px){
+    .product-box{
+        width: 48%;
+        margin: 2px;
+    }
+    .product-box h2{
+        margin: 0;
+    }
+    .product-box h3{
+        margin: 0;
+    }
+    .product-box p{
+        margin: 0;
+    }
+    .review{
+        margin: 0;
+    }
 }
