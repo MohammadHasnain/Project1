@@ -201,22 +201,25 @@ html{
 }
 
 .green{
-    color: #03f598;
-   
+    color:#fff;
+    padding: 5px;
 }
+
+
 
 .nav-center ul{
     float: right;
+
 }
 
 .navigation ul li{
     float: left;
-    list-style: none;
+    list-style:none;
     font-weight: 500;
-    padding: 15px 40px 0px 0px;
     padding-top: 12px;
     font-size: 1rem;
     font-weight: 700;
+    padding: 10px 15px 0px 0px;
 }
 
 .icon{
@@ -307,11 +310,12 @@ a{
 }
 
 .product-box{
-    width: 26%;
+    width: 29%;
     float: left;
     margin: 0 2%;
     padding-bottom: 15px;
     border: 1px solid rgb(219 , 214, 214);
+    margin-bottom:15px;
 }
 
 .product-box h2{
@@ -524,11 +528,20 @@ a{
         padding-left: 20px;
     }
 
+    .green{
+        color:#0b0c0ccc;
+        
+    }
+
 .form-box{
     width: 70%;
-    height: 70vh;
+    
 }
 
+.product-box {
+    width: 43%;
+    margin: 27px;
+}
 
 
     .icon{
@@ -555,8 +568,8 @@ a{
         float: none;
     }
     .product-box{
-        width: 100%;
-        margin: 25px 0;
+        width: 40%;
+        margin: 25px;
     }        
     .product-box p{
         text-align: center;
@@ -588,18 +601,73 @@ a{
      }
 }
 
-@media only screen and (max-width:450px){
-    .form-box h1 {
-        font-size: 25px;
-        margin-bottom: 40px;}
+@media only screen and (max-width: 530px){
+.product-box {
+    width: 40%;
+    margin: 23px}
 }
+
+@media only screen and (max-width: 489px){
+.product-box {
+    width: 38%;
+    margin: 23px;}
+}
+
+.product-box h2{
+    padding-left: 2%;
+}
+
+.product-box h3{
+    padding-right: 2%;
+}
+
+.product-box p{
+    padding: 2%;
+}
+
+@media only screen and (max-width:450px){
+
+    .master{
+        height: 60vh;
+    }
+
+    .product-box{
+        width: 47%;
+        margin: 5px;
+    }
+    .product-box h2{
+        font-size: 1rem;
+    }
+    .product-box h3{
+        font-size: 0.9rem;
+    }
+    .product-box p{
+        font-size: 0.8rem;
+    }
+    
+
+.form-box h1{
+    font-size: 25px;
+    margin-bottom: 40px;}
+
+.form-box{
+    height: 45vh;
+    padding: 50px 15px 70px;
+}
+
+.form-box.active {
+    top: 40%;}
+
+
 .input-field{
-    max-height: 45px;
+    max-height: 40px;
+    max-width: 280px;
 }
 .input-group {
     height: 235px;
+  
 }
-
+}
 
 @media only screen and (max-width:375px){
   .navigation ul li{
@@ -614,11 +682,14 @@ a{
 }
 
 .form-box{
-    height: 50vh;
+    height: 40vh;
 }
 
 .btn-field button{
-    height: 20px;
+    height: 30px;
 }
 
+.input-group {
+    height: 220px;
+}
 }
